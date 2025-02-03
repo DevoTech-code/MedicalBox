@@ -1,0 +1,57 @@
+.home1 {
+	text-align: center;
+}
+
+.home1 h2 {
+	background: #393939;
+	padding: 10px;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.patient {
+	border: 1px solid #393939;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 10px;
+	width: 45%;
+
+}
+
+.patient p {
+	padding: 5px 0;
+}
+
+#patients {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.details {
+	display: none; /* Masquer les détails par défaut */
+	margin-top: 10px;
+	padding-left: 10px;
+	border-left: 2px solid #007BFF;
+	transition: display 0.3s ease;
+}
+
+
+@media (max-width: 996px) {
+	.home1 {
+		width: 90%;
+	}
+
+	section {
+		width: 90%;
+	}
+}
+
+@media (max-width: 576px) {
+	.patient {
+		width: 90%;
+	}
+}

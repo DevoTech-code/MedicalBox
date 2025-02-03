@@ -1,0 +1,71 @@
+.linkview {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: 800px;
+	margin: 40px auto;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.linkview a {
+	border-radius: 8px;
+	background-color: #393939;
+	padding: 10px;	
+	text-align: center;	
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	align-content: center;
+	transition: .2s ease-in;
+	font-size: 1.3em;
+	width: 45%;
+	height: 200px;
+	overflow: hidden;
+
+}
+
+.linkview a:hover {
+	border: 1px solid #393939;
+	background-color: #fff;
+	color: #393939;
+	}
+
+section {
+	padding: 20px;
+
+}
+
+
+.home1 {
+	text-align: center;
+}
+
+.home1 h1 {
+	background: #393939;
+	padding: 10px;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+
+@media (max-width: 996px) {
+	.linkview {
+		width: 100%;
+
+	}
+	.linkview a {
+		width: 40%;
+	}
+}
+
+@media (max-width: 576px) {
+	.linkview a {
+		width: 80%;
+	}
+	.linkview a:active {
+		background-color: #fff;
+	}
+}
